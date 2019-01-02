@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  return ran(1...11)
+  return Math.random(1...11)
 end
 
 def display_card_total
